@@ -4,3 +4,7 @@ body {
   margin: 2rem;
   box-sizing: border-box;
 }
+
+a {
+  cursor: pointer;
+}

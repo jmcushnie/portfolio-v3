@@ -26,10 +26,22 @@ nav {
 
 .hero-section {
   display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: 6vw;
+  height: calc(80vh - 4rem);
+  background-color: #201e1f;
+  color: white;
+}
+
+.hero-content {
   text-align: center;
-  padding: 4vw;
+  padding: 2rem;
+  width: 100%;
+}
+.hero-content h1 {
+  font-size: 8vw;
+  margin: 0;
+  position: relative;
 }
 
 .about-section {
@@ -120,4 +132,44 @@ nav {
   gap: 7rem;
   font-size: 3vw;
   padding: 5vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  align-items: center;
+  padding: 3rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.email {
+  font-weight: 400;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.email-link {
+  line-height: 0.2rem;
+  text-align: center;
+}
+.email:hover {
+  opacity: 70%;
+}
+
+.icons {
+  padding: 2rem;
+}
+
+.fa-brands {
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.fa-brands:hover {
+  opacity: 70%;
 }
