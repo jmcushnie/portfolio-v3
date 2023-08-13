@@ -10,11 +10,11 @@ import Aurabg from "./components/Aurabg";
 function App() {
   return (
     <main>
-      <Aurabg />
       <NavBar />
       <Hero />
-      <About />
       <Projects />
+      <About />
+
       <Skills />
 
       <Footer />

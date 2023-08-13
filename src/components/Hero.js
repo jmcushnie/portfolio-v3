@@ -14,8 +14,13 @@ function Hero() {
       <div data-aos="fade-up" className="hero-content">
         <h1>
           {" "}
-          Hey, I'm Jess <br /> A full stack developer, NZ
+          Jess Cushnie. <br /> Frontend Developer{" "}
         </h1>
+      </div>
+      <div>
+        <button>
+          <a href="#"> my projects </a>
+        </button>
       </div>
     </section>
   );

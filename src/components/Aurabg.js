@@ -11,7 +11,7 @@ const AuraBackground = () => {
       const gradientX = (mouseX / window.innerWidth) * 100;
       const gradientY = (mouseY / window.innerHeight) * 100;
 
-      auraBackground.style.background = `radial-gradient(at ${gradientX}% ${gradientY}%, #FBAB7E,#FFFFFF)`;
+      auraBackground.style.background = `radial-gradient(at ${gradientX}% ${gradientY}%, #8BC6EC,#9599E2)`;
     };
 
     document.addEventListener("mousemove", updateGradientPosition);

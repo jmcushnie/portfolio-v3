@@ -1,8 +1,9 @@
 body {
-  margin: 0;
+  margin: 4rem;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(25, 25, 25);
+  background-color: #201e1f;
+  color: white;
   font-family: "Raleway", sans-serif;
 }
 
@@ -10,17 +11,68 @@ nav {
   margin: 2rem;
 }
 .nav-links {
+  font-weight: 300;
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
+  gap: 2rem;
+  line-height: 2rem;
+  align-items: flex-end;
   margin: 0;
 }
 
 .nav-links li a {
   cursor: pointer;
-  color: rgb(26, 26, 26);
+  color: white;
   text-decoration: none;
+  transition: transform 0.2s ease;
+  border: solid 1px white;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+}
+
+.nav-links li a:hover {
+  color: #201e1f;
+  background-color: white;
+  transition: ease 1s;
+}
+
+button {
+  border: solid 1px white;
+  border-radius: 20px;
+  background-color: #201e1f;
+  color: white;
+  padding: 0.5rem 2rem;
+  position: relative; /* Add position relative for animation */
+  animation: float 2s infinite ease-in-out; /* Apply the floating animation */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: #201e1f;
+  transform: translateY(-5px); /* Apply translation for hovering */
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+button a:hover {
+  color: #201e1f;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0); /* Start and end position of floating */
+  }
+  50% {
+    transform: translateY(-10px); /* Peak of floating */
+  }
 }
 
 .aura-background {
@@ -40,6 +92,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: calc(100vh - 4rem);
 }
 
@@ -47,13 +100,14 @@ h2 {
   text-align: center;
   padding: 2rem;
   width: 100%;
+  line-height: 3.5rem;
 }
 .hero-content h1 {
   font-size: 4rem;
   margin: 0;
   position: relative;
-  font-family: "raleway", sans-serif;
-  font-weight: 400;
+  font-family: span, serif;
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -130,7 +184,7 @@ h2 {
 
 .links a {
   text-decoration: none;
-
+  color: white;
   margin: 0 0.5rem;
   border: solid 1px #201e1f;
   border-radius: 15px;
@@ -148,14 +202,14 @@ h2 {
 footer {
   display: flex;
   flex-direction: column;
-  font-size: 4rem;
+  font-size: 2.5rem;
   align-items: center;
   padding: 3rem;
 }
 
 footer a {
   text-decoration: none;
-  color: rgb(26, 26, 26);
+  color: white;
 }
 
 .email {
