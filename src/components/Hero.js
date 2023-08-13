@@ -14,8 +14,7 @@ function Hero() {
       <div data-aos="fade-up" className="hero-content">
         <h1>
           {" "}
-          <span className="image-left"></span> CREATIVE DESIGNER &amp; DEVELOPER{" "}
-          <span className="image-left"></span>
+          Hey, I'm Jess <br /> A full stack developer, NZ
         </h1>
       </div>
     </section>

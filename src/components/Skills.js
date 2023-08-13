@@ -5,26 +5,13 @@ function Skills() {
     <section className="about-section">
       <div>
         <h2>03/ skills</h2>
-        <hr className="line"></hr>
-        <section className="skills-list">
-          <div>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React Js</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>PHP</li>
-              <li>GIT</li>
-              <li>FIGMA</li>
-              <li>ADOBE CREATIVE SUITE</li>
-            </ul>
-          </div>
-        </section>
+
+        <div className="skills-container">
+          <p className="skills">
+            HTML5 | CSS | JavaScript | React | Git | SQL | PHP | Adobe Suite |
+            Figma
+          </p>
+        </div>
       </div>
     </section>
   );

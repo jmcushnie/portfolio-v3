@@ -7,7 +7,6 @@ function Projects() {
       <section className="project-section">
         <div>
           <h2>02/ projects</h2>
-          <hr className="line"></hr>
         </div>
         <div className="project-cards-container">
           <ProjectCard
