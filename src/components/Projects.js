@@ -17,8 +17,8 @@ function Projects() {
             link2="https://github.com/jmcushnie/cocktail-club.git"
           />
           <ProjectCard
-            title="Project 2"
-            description="Description of Project 2."
+            title="My Wrapped"
+            description="This project showcases my use of the Spotify Web API to create an interactive app that offers insights into your music listening habits."
             imageSrc={require("../img/aqua mock 3.jpg")}
           />
           <ProjectCard
