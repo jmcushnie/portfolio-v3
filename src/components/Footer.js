@@ -20,11 +20,19 @@ function Footer() {
       </div>
       <div class="icons">
         {" "}
-        <a href="https://github.com/jmcushnie" target="_blank">
+        <a
+          href="https://github.com/jmcushnie"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           <i class="fa-brands fa-github fa-2xs"></i>
         </a>
-        <a href="https://www.linkedin.com/in/jesscushnie/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/jesscushnie/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fa-brands fa-linkedin fa-2xs"></i>{" "}
         </a>
       </div>
