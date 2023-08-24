@@ -19,7 +19,7 @@ function Hero() {
       </div>
       <div>
         <button>
-          <a href="#"> my projects </a>
+          <a href="#projects"> my projects </a>
         </button>
       </div>
     </section>
