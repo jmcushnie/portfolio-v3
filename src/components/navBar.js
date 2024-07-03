@@ -4,7 +4,7 @@ function NavBar() {
       <ul className="nav-links">
         <li>
           <a
-            href="https://www.dropbox.com/scl/fi/rlay7wxceov0hfbnumoe7/JESS-CUSHNIE-CV-1.pdf?rlkey=2w7hty7ndyxp86bqx6gdhugdm&dl=0"
+            href="https://www.dropbox.com/scl/fi/4kgs4pmr129spb9vf5ywp/JESS-CUSHNIE-CV-2.pdf?rlkey=cpsmtul40laxkudlccjnntdun&st=7vmkbavj&dl=0"
             download="JESS CUSHNIE CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
