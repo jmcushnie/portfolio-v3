@@ -10,11 +10,12 @@ function Projects() {
         </div>
         <div className="project-cards-container">
           <ProjectCard
-            title="Cocktail Search App"
-            description="A cocktail search app using React js, TheCocktailDB API and CSS"
-            imageSrc={require("../img/Screenshot 2023-08-23 at 10.47.03 PM.png")}
-            link1="https://jess-cocktail-club.netlify.app/"
-            link2="https://github.com/jmcushnie/cocktail-club.git"
+            title="Budget Tracker"
+            description="A responsive budget calculator that tracks income, expenses, and remaining balance with a visual spending chart.
+Built with: HTML, CSS, JavaScript, and Chart.js."
+            imageSrc={require("../img/clearbudget.png")}
+            link1="https://clearbudgetproject.netlify.app/"
+            link2="https://github.com/jmcushnie/clearbudget.git"
           />
           <ProjectCard
             title="My Wrapped"
