@@ -14,7 +14,7 @@ function Hero() {
       <div data-aos="fade-up" className="hero-content">
         <h1>
           {" "}
-          Jess Cushnie. <br /> Frontend Developer{" "}
+          Jess Cushnie. <br /> Software Developer{" "}
         </h1>
       </div>
       <div>

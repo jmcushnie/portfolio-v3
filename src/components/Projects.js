@@ -18,18 +18,18 @@ Built with: HTML, CSS, JavaScript, and Chart.js."
             link2="https://github.com/jmcushnie/clearbudget.git"
           />
           <ProjectCard
+            title="Screen Time Rewards"
+            description="A chore and screen-time reward dashboard built with React. Parents can create child profiles, assign tasks with minute rewards, and track daily progress through an interactive interface."
+            imageSrc={require("../img/screentimeapp.png")}
+            link1="https://screentimereward.netlify.app/"
+            link2="https://github.com/jmcushnie/screen-time-app.git"
+          />
+          <ProjectCard
             title="My Wrapped"
             description="This project showcases my use of the Spotify Web API to create an interactive app that offers insights into your music listening habits."
             imageSrc={require("../img/Screenshot 2023-08-23 at 10.43.10 PM.png")}
             link1="https://mywrapped.netlify.app/"
             link2="https://github.com/jmcushnie/wrapped.git"
-          />
-          <ProjectCard
-            title="Haukai Website"
-            description="HTML, CSS Responsive Website for Web Development Assignment."
-            imageSrc={require("../img/Screenshot 2023-08-23 at 10.43.36 PM.png")}
-            link1="https://haukai-website.netlify.app/"
-            link2="https://github.com/jmcushnie/Haukai-Website-Main.git"
           />
           <ProjectCard
             title="Weather App"
